@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Assignment WebPage</title>
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <table style="width:100%;border: 1px solid black;">
+            <tr>
+                <th>
+                    <p>
+                        <h1 style="text-align: left;float: left;"> <a href="https://www.w3schools.com/html/default.asp">w3schools</a></h1> 
+                        <h3 style="text-align: right;float: inline-end;">THE WORLD' LARGEST WEB DEVELOPMENT SITE</h3>                       
+                    </p>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <nav style="float: inline-start;">
+                        <a href="https://www.w3schools.com/html/default.asp">HTML</a>  | 
+                        <a href="https://www.w3schools.com/css/default.asp">CSS</a>  | 
+                        <a href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a>  |
+                        <a href="https://www.w3schools.com/python/default.asp">PYTHON</a>
+                    </nav>
+                    </th>                                   
+            </tr>
+            <tr>
+                <th style="text-align: start;padding-top: 30px;">
+                
+                    <h1">HTML Introduction</h1>
+                    <p style="font-size: small;">HTML is the standard markup language for creating web pages.</p>
+                </th>
+            </tr>
+                  <tr> <td><ol>
+                        <li><a href="#topic1">What is HTML?</a></li>
+                        <li><a href="#topic2">What is an HTML element?</a></li>
+                        <li><a href="#topic3">Web Browsers</a></li>
+                        </td>
+                    </ol>
+                  </tr>
+                  <tr>
+                      <th style="text-align: start;padding-top: 25px;">
+                        <h3 id="topic1">What is HTML?</h3>
+                      </th>
+                  </tr>
+                  <tr> 
+                  <td>
+                      <ul>
+                          <li>HTML stands for Hyper Text Markup Language</li>
+                          <li>HTML is the standard markup language for creating Web pages</li>
+                          <li>HTML describes the structure of a Web page</li>
+                          <li>HTML consists of a series of elements</li>
+                          <li>HTML elements tell the browser how to display the content</li>
+                          <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                      </ul>
+                  </td>
+                  </tr>
+                  <tr>
+                      <th style="text-align: start;">
+                        <h3 id="topic2">What is an HTML element?</h3>
+                      </th>
+                  </tr>
+                  <tr>
+                      <td>
+                          <p>An HTML element is defined by a start tag, some content, and an end tag:</p><br>
+                          <p> &lt;tagname> Content goes here...&lt;/tagname> </p>
+                          <p>The HTML element is everything from the start tag to the end tag:</p>
+                          <p> &lt;h1>My First Heading&lt;/h1> </p>
+                          <p>&lt;p>My first paragraph.&lt;/p></p>
+                      </td>
+                  </tr>                  
+                  <tr>
+                      <td>
+                          <table class="tagtable">
+                              <tr>
+                                  <th class="tagtable">Start tag</th>
+                                  <th class="tagtable">Element content</th>
+                                  <th class="tagtable">End tag</th>
+                              </tr>
+                              <tr>
+                                  <td class="tagtable">&lt;h1></td>
+                                  <td class="tagtable">My first Heading</td>
+                                  <td class="tagtable">&lt;/h1></td>
+                              </tr>
+                              <tr>
+                                  <td class="tagtable">&lt;p></td>
+                                  <td class="tagtable">Paragraph</td>
+                                  <td class="tagtable">&lt;/p></td>                                
+                                 
+                              </tr>
+                              <tr>
+                                  <td class="tagtable">&ltbr></td>
+                                  <td class="tagtable">none</td>
+                                  <td class="tagtable">none</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <tr>
+                    <th style="text-align: start;">
+                      <h3 id="topic3">Web Browsers</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.</p><br>
+                        <p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="text-align: start;">
+                        <h3>Submit A Review</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="action.html" method="GET">
+                            <label for="fname">First Name: </label> 
+                            <input type="text" id="fname" name="fname" value="John">
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label><br><br>
+                            <label for="ratings">Rate It</label>
+                            <select id="ratings" name="ratings">
+                                <option value="verygood">Very Good</option>
+                            </select><br>
+                            <textarea name="feedback" rows="11" cols="50">Please add a review</textarea><br><br>
+                            <input type="submit" value="Submit">
+                        </form><br><br><br>
+                    </td>
+                </tr>                                                               
+       </table>        
+    </body>
+</html>
